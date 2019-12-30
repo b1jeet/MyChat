@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+body
+{
+    background-image:url('spot-light-background_1284-4685.jpg'); 
+}
+input {
+  width: 200px;
+  padding:5px 5px;
+  border-radius: 5px;
+  margin: 8px 0;
+  border-color: blue;
+  box-sizing: border-box;
+}
+input:hover
+{
+    background-color:#eff9b6;
+    text-decoration: black;
+}
+label
+{
+    font-size: 26px;
+    font-family: Times New Roman;
+    font-weight: bolder;
+}
+#signup
+{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Gabriola', serif;
+    text-shadow: 4px 0px 4px grey;
+    color: black;
+}
+form{
+    background: #;
+}
+</style>
+</head>
+<body>
+    <div id="signup"><i>SHADES SIGNUP PAGE</i></div>
+<form action="processing2.php" method="post">
+    <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="first_name" id="firstName" class="textfields">
+    </p>
+    <p>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="last_name" id="lastName" class="textfields">
+    </p>
+    <p>
+        <label for="emailAddress">Email Address:</label>
+        <input type="text" name="email" id="emailAddress" class="textfields">
+    </p>
+    <p>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" class="textfields">
+    </p>
+    <p>
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state" class="textfields">
+    </p>
+    <p>
+        <label for="zip">Zip:</label>
+        <input type="text" name="zip" id="zip" class="textfields">
+    </p>
+    <p>
+        <label for="password">Password:</label>
+        <input type="password" name="pass" id="pass" class="textfields">
+    </p>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
